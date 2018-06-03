@@ -46,7 +46,7 @@ class myLinearSVC(object):
             yt = y*X.dot(betas)
             ell = (1+self.h-yt)**2 / (4*self.h)*(np.abs(1-yt) <= self.h) + (1-yt)*(yt < (1-self.h))
             return np.mean(ell) + self.C*np.dot(betas, betas)
-        else: self.loss == 'squared_hinge':
+        elif self.loss == 'squared_hinge':
             raise ValueError('squared hinge loss is not implemented yet!')
 
     def compute_grad(self, X, y, betas):
