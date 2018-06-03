@@ -6,10 +6,13 @@ My implementation of scikit-learn, mykit-learn. Mklearn is my implementation of 
 
 Make sure Python has the correct path to the modules, and simply import as follows:
 
-`
+```python
 import mklearn
 import multiclass
-`
+
+mklearn.myLinearSVC(...)
+multiclass.Multiclass(...)
+```
 ## Implementation
 
 ### Linear Support Vector Classifier
