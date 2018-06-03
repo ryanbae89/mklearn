@@ -2,6 +2,14 @@
 
 My implementation of scikit-learn, mykit-learn. Mklearn is my implementation of Linear Support Vector Machine model. It is implemented similarly to scikit-learn using classes and fit functions, etc. 
 
+## Usage
+
+Make sure Python has the correct path to the modules, and simply import as follows:
+
+`
+import mklearn
+import multiclass
+`
 ## Implementation
 
 ### Linear Support Vector Classifier
